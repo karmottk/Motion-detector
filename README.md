@@ -16,6 +16,7 @@ Most cheap Chinese cameras (P05, etc.) only support **their cloud or SD card**. 
 pip install -r requirements.txt
 cp config.example.yaml config.yaml
 python3 detector.py
+```
 
 ## Features
 | Feature          | Description                                        |
