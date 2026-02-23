@@ -1,6 +1,5 @@
 ### Motion Detector
-Motion detector for Digicam P05 cameras and Hikvision DS-7600 NVR.
-Detect motion -> Send manual record to NVR -> motion not detected for 10 seconds -> stop recording -> profit.
+RTSP IP cams → OpenCV motion → Hikvision ISAPI recording.
 
 ### USAGE 
 ```
