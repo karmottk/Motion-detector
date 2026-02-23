@@ -1,0 +1,19 @@
+nvr:
+  ip: "192.168.x.x"
+  user: "admin"
+  pass: "change_this"
+
+cameras:
+  - name: "Camera name"
+    rtsp: "rtsp://admin:pass@192.168.x.x:544/live/ch00_1"
+    nvr_channel: 1 
+    threshold: 5000
+    no_motion_timeout: 10
+
+  - name: "Second camera"
+    rtsp: "rtsp://admin:pass@192.168.x.x:544/live/ch00_1"
+    nvr_channel: 2 
+    threshold: 5000
+    no_motion_timeout: 10
+
+cooldown: 30
