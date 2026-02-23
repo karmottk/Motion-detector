@@ -8,7 +8,7 @@ import numpy as np
 import requests
 import time
 import threading
-import yaml  # pip install pyyaml
+import yaml
 from datetime import datetime
 from collections import defaultdict
 from pathlib import Path
